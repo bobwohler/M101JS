@@ -10,3 +10,21 @@
  * resizing the array, leaving an empty space.
  */
 
+// Connect to MongoDB
+var mongoClient = require("MongoDB").MongoClient;
+
+mongoClient.connect("mongodb://localhost:27017/school", function(err, db){
+	if (err) throw err;
+	var students = db.collection("students");
+	// Retrieve all students
+	var cursor = students.find();
+	cursor.each(function(err, doc){
+		if(err) throw err;
+		if(doc === null){
+			return db.close();
+		}
+		// Display each student's name
+		console.dir(doc.name);
+	});
+});
+
