@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/HW2-1/hello-world-server.js" element2="/HW2-1/package.json" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1378138432418"/>
+<session version="1.0">&#x0A;<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/HW2-1/hello-world-server.js" element2="/HW2-1/package.json" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1378138432418"/>&#x0A;<refactoring comment="Delete 3 resources" deleteContents="false" description="Delete 3 resources" element1="/HW2-2/hello-world-server.js" element2="/HW2-2/package.json" element3="/HW2-2/README.md" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="3" stamp="1378139081097"/>
 </session>
