@@ -9,4 +9,3 @@
  * Note that you should not use the delete operator, because it will delete the element without 
  * resizing the array, leaving an empty space.
  */
-
