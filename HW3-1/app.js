@@ -16,15 +16,38 @@ var mongoClient = require("MongoDB").MongoClient;
 mongoClient.connect("mongodb://localhost:27017/school", function(err, db){
 	if (err) throw err;
 	var students = db.collection("students");
-	// Retrieve all students
-	var cursor = students.find();
+	var query = {};
+	var cursor = students.find(query);
+	var currScore = 0;
+	var scores = null;
+	var firstTime = true;
+	var lowestScoreIndex = null;
 	cursor.each(function(err, doc){
 		if(err) throw err;
 		if(doc === null){
 			return db.close();
 		}
-		// Display each student's name
-		console.dir(doc.name);
+		var id = doc._id;
+		console.dir(id);
+		scores = doc.scores;
+		for(var i=0; i< scores.length; i++){
+			var scoreItem = scores[i];
+			if(scoreItem.type == "homework"){
+				
+			}
+		}
+		scores.splice(lowestScoreIndex,1);
+		// Update the doc with the modified scores array
+		var updateFilter = {"_id" : doc._id};
+		var sort = [];
+		var operator = {$set : {"scores" : scores}};
+		var options = {"new" : true}; // Return the updated document
+//			students.findAndModify(updateFilter, sort, operator, options, function(err, updatedDoc){
+		students.update(updateFilter, doc, options, function(err, cnt){
+			if(err) throw err;
+		});
+		firstTime = true;
+		lowestScoreIndex = null;
 	});
 });
 
