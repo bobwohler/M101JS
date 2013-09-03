@@ -29,7 +29,7 @@ function PostsDAO(db) {
                 "date": new Date()}
 
         // now insert the post
-        // TODO hw3.2
+        // TODO test
         callback(Error("insertEntry NYI"), null);
     }
 
