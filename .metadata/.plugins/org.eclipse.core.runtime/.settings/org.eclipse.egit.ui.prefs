@@ -1,5 +1,5 @@
 //BranchProjectTracker__/Users/bobwohlerjr/Documents/github/M101JS/.git_master=<?xml version\="1.0" encoding\="UTF-8"?>\n<projects branch\="master">\n<project>/HW2-1</project>\n<project>/HW2-2</project>\n<project>/HW2-3</project>\n<project>/HW3-1</project>\n</projects>
-commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>Filling in missing files.</message>\n<message>Added HW2-2</message>\n</messages>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>Addition of mongodb client</message>\n<message>Building logic</message>\n<message>Filling in missing files.</message>\n<message>Added HW2-2</message>\n</messages>
 eclipse.preferences.version=1
 resourcehistory_graph_split=500,500
 resourcehistory_rev_split=700,300

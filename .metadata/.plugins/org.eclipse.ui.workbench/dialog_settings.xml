@@ -4,6 +4,9 @@
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/Users/bobwohlerjr/Documents/Training/hw3/hw3-2and3-3/blog"/>
+			<item value="/Users/bobwohlerjr/Documents/Training/hw3/hw3-2and3-3/blog/views"/>
+			<item value="/Users/bobwohlerjr/Documents/Training/hw3/hw3-2and3-3/blog/routes"/>
 			<item value="/Users/bobwohlerjr/Documents/Training/hw2/hw2-2/HW2-2"/>
 			<item value="/Users/bobwohlerjr/Documents/Training/hw2/hw2-1/HW2-1"/>
 		</list>
@@ -20,16 +23,22 @@
 		<list key="textEntries">
 		</list>
 	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="52" key="DIALOG_Y_ORIGIN"/>
+		<item value="394" key="DIALOG_X_ORIGIN"/>
+	</section>
 	<section name="ShowViewDialog">
 		<item value="308" key="DIALOG_WIDTH"/>
-		<item value="org.eclipse.egit.ui.RepositoriesView" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
+		<item value="org.eclipse.ui.views.TaskList" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
 		<item value="132" key="DIALOG_Y_ORIGIN"/>
-		<item value="415" key="DIALOG_HEIGHT"/>
 		<item value="549" key="DIALOG_X_ORIGIN"/>
+		<item value="415" key="DIALOG_HEIGHT"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.egit.ui.GitCategory"/>
+			<item value="org.eclipse.ui"/>
 		</list>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
 	</section>
 	<section name="ImportExportAction">
 		<item value="org.eclipse.ui.wizards.import.FileSystem" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
