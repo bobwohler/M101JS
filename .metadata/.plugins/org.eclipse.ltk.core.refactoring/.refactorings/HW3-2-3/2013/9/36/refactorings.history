@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring accessors="true" comment="Delete 1 element(s) from project &apos;HW3-2&apos;&#x0A;- Original project: &apos;HW3-2&apos;&#x0A;- Original element: &apos;hello-world-server.js&apos;" description="Delete element" element1="hello-world-server.js" elements="0" flags="589830" id="org.eclipse.wst.jsdt.ui.delete" resources="1" stamp="1378169730375" subPackages="false" version="1.0"/>&#x0A;<refactoring comment="Rename resource &apos;HW3-2-3/voews&apos; to &apos;views&apos;" description="Rename resource &apos;voews&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="voews" name="views" stamp="1378170000862" updateReferences="true"/>
+</session>
