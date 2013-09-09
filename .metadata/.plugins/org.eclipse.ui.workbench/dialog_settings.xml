@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="FileSystemImportWizard">
+		<item value="true" key="WizardFileSystemResourceImportPage1.STORE_PATH_VARIABLE_SELECTED_ID"/>
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
-		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
+		<item value="true" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
+		<item value="Edit Variables..." key="WizardFileSystemResourceImportPage1.STORE_PATH_VARIABLE_NAME_ID"/>
+		<item value="true" key="WizardFileSystemResourceImportPage1.STORE_CREATE_VIRTUAL_FOLDERS_ID"/>
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_LINKS_IN_WORKSPACE_ID"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/Users/bobwohlerjr/Documents/Training/hw4-3/blog/views"/>
+			<item value="/Users/bobwohlerjr/Documents/Training/hw4-3/blog/routes"/>
+			<item value="/Users/bobwohlerjr/Documents/Training/hw4-3/blog"/>
+			<item value="/Users/bobwohlerjr/Documents/Training/hw4-3"/>
 			<item value="/Users/bobwohlerjr/Documents/Training/hw3/hw3-2and3-3/blog"/>
-			<item value="/Users/bobwohlerjr/Documents/Training/hw3/hw3-2and3-3/blog/views"/>
-			<item value="/Users/bobwohlerjr/Documents/Training/hw3/hw3-2and3-3/blog/routes"/>
-			<item value="/Users/bobwohlerjr/Documents/Training/hw2/hw2-2/HW2-2"/>
-			<item value="/Users/bobwohlerjr/Documents/Training/hw2/hw2-1/HW2-1"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
@@ -31,8 +35,8 @@
 		<item value="308" key="DIALOG_WIDTH"/>
 		<item value="org.eclipse.ui.views.TaskList" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
 		<item value="132" key="DIALOG_Y_ORIGIN"/>
-		<item value="415" key="DIALOG_HEIGHT"/>
 		<item value="549" key="DIALOG_X_ORIGIN"/>
+		<item value="415" key="DIALOG_HEIGHT"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.ui"/>
